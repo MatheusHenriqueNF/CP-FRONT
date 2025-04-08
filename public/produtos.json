@@ -1,0 +1,99 @@
+[
+    {
+        "id":"1",
+        "categoria":"Lanche",
+        "nome":"X-Burguer",
+        "ingredientes":[
+            "2 hambúrgueres",
+            "2 fatias de mussarela",
+            "2 pães para hambúrguer",
+            "maionese",
+            "2 rodelas de tomate",
+            "2 folhas de alface"
+        ],
+        "modoPreparo":"Frite os hambúrgueres com um pouquinho de óleo, quando estiver frito cubra com a mussarela. Retire do fogo e coloque no pão. Passe no pão a maionese e coloque o alface e tomate.",
+        "tempo":"15 minutos",
+        "imagem":"/image/xburguer.jpg"   
+    },
+
+
+
+    {
+        "id":"2",
+        "categoria":"Lanche",
+        "nome":"X-Bacon",
+        "ingredientes":[
+            "2 hambúrgueres",
+            "2 fatias de mussarela",
+            "2 pães para hambúrguer",
+            "maionese",
+            "2 fatias de bacon"
+        ],
+        "modoPreparo":"Frite as fatias de bacon sem óleo e reserve. Frite os hambúrgueres na gordura do bacon, quando frito, cubra com mussarela. Passe a maionese no pão, coloque o hambúrguer e o bacon.",
+        "tempo":"20 minutos",
+        "imagem":"/image/xbacon.jpg"
+    },
+
+
+
+    {
+        "id":"3",
+        "categoria":"Porção",
+        "nome":"Batata Frita",
+        "ingredientes":[
+            "Batatas (quantidade a gosto) cortadas em palitos",
+            "Sal a gosto",
+            "1/2 colher (sopa) de amido de milho"
+        ],
+        "modoPreparo":"Seque as batatas já cortadas com papel toalha. Esquente o oléo, reserve meia xícara desse óleo e misture a meia colher de amido de milho, volte esse óleo para a frigideira, frite as batatas até dourarem.",
+        "tempo":"20 minutos",
+        "imagem":"/image/batata.webp"
+    },
+
+    {
+        "id":"4",
+        "categoria":"Porção",
+        "nome":"Onion Ring",
+        "ingredientes":[
+            "1 cebola média",
+            "1 xícara de farinha de trigo",
+            "2 xícaras de farinha de rosca",
+            "300 ml de leite",
+            "sal a gosto"
+        ],
+        "modoPreparo":"Descasque a cebola. Corte em tiras(anéis), com um pouco menos de 1 cm de espessura. Deixe de molho os anéis na água, por pelo menos 1 hora. Coloque sal a gosto na farinha de rosca. Passe a cebola no leite, depois na farinha de trigo, depois no leite, depois na farinha de rosca, depois no leite novamente e por final passe na farinha de rosca. Esquente bem o óleo e frite.",
+        "tempo":"30 minutos",
+        "imagem":"/image/onionring.jpg"
+    },
+
+    {
+        "id":"5",
+        "categoria":"Sobremesa",
+        "nome":"Petit Gateau",
+        "ingredientes":[
+            "200 g de chocolate meio amargo",
+            "2 colheres de manteiga sem sal",
+            "1/4 xícara (chá) de açúcar",
+            "2 colheres (sopa) rasas de farinha de trigo",
+            "2 ovos inteiros (tire a pele da gema)",
+            "2 gemas"
+        ],
+        "modoPreparo":"Derreta a manteiga e o chocolate em banho-maria. Bata os ovos e as gemas com açúcar na batedeira, até fica bem claro. Junte o chocolate derretido e a farinha de trigo, misturando com uma espátula. Depois, unte as forminhas de empadinha, passe farinha de trigo e coloque a massa. Preaqueça o forno e leve para assar de 6 a 10 minutos (em fogo alto) até os bolinhos crescerem, mas o meio deve ficar molinho. Desenforme ainda quente. Sirva no prato acompanhado com sorvete.",
+        "tempo":"30 minutos",
+        "imagem":"/image/petitgateau.webp"
+    },
+
+    {
+        "id":"6",
+        "categoria":"Sobremesa",
+        "nome":"Mousse de Limão",
+        "ingredientes":[
+            "1 lata de leite condensado",
+            "1 lata de creme de leite",
+            "1/2 xícara de suco de limão"
+        ],
+        "modoPreparo":"Coloque no liquidificador o creme de leite e o leite condensado. Bata um pouco e depois vá acrescentando o suco do limão, aos poucos. Leve á geladeira por 1 hora.",
+        "tempo":"10 minutos",
+        "imagem":"/image/Mousse-de-Limao.png"
+    }
+]
