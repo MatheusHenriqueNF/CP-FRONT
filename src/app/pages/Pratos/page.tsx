@@ -31,7 +31,7 @@ const Pratos = () => {
     useEffect(() => {
         const buscarCategoria = async () => {
             try {
-                const response = await fetch("/produtos.json");
+                const response = await fetch("/data/receitas.json");
                 const data = await response.json();
 
                 setTodosProdutos(data);
@@ -117,25 +117,36 @@ const Pratos = () => {
                      <CardProduto
                          title={prod.nome}
                          imagem={prod.imagem}
-                         desc={prod.descricao}
+                         desc={prod.tempo}
                      />
                  </div>
                     
                 ))}
             </section>
                     
-                {/* prato em destaque como fazer */}
             {pratoSelecionado && (
-            <section className="w-full flex justify-center items-center gap-10 flex-wrap p-12">
-                <Receita
-                    titulo={pratoSelecionado.nome}
-                    imagem={pratoSelecionado.imagem}
-                    tempo={pratoSelecionado.tempo || "Tempo não informado"}
-                    ingredientes={pratoSelecionado.ingredientes || "Ingredientes não informados"}
-                    modoPreparo={pratoSelecionado.modoPreparo || "Modo de preparo não informado"}
-                />
-            </section>
-)}
+                <div className="fixed inset-0 bg-[rgba(0,0,0,0.6)] z-50 flex items-center justify-center p-4">
+                    <div className="bg-white rounded-2xl shadow-2xl max-w-6xl w-full relative overflow-auto max-h-[90vh] p-6">
+                    
+                    {/* Botão para fechar o modal */}
+                    <button
+                        onClick={() => setPratoSelecionado(null)}
+                        className="absolute top-4 right-4 text-gray-600 hover:text-red-600 text-2xl font-bold"
+                    >
+                        &times;
+                    </button>
+
+                    {/* Conteúdo da receita */}
+                    <Receita
+                        titulo={pratoSelecionado.nome}
+                        imagem={pratoSelecionado.imagem}
+                        tempo={pratoSelecionado.tempo || "Tempo não informado"}
+                        ingredientes={pratoSelecionado.ingredientes || "Ingredientes não informados"}
+                        modoPreparo={pratoSelecionado.modoPreparo || "Modo de preparo não informado"}
+                    />
+                    </div>
+                </div>
+            )}
         </>
     );
 };
